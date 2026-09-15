@@ -24,7 +24,7 @@ export default function Sidebar() {
     "text-[#AFC4B4] hover:bg-white/10 hover:text-white active:bg-[#2E9F63] active:text-white";
 
   return (
-    <aside className="w-64 shrink-0 bg-[#123524] text-white flex flex-col justify-between py-6 px-4">
+    <aside className="w-64 h-full shrink-0 bg-[#123524] text-white flex flex-col justify-between py-6 px-4">
       <div>
         <div className="flex items-center gap-2 px-2 mb-8">
           <span className="w-8 h-8 rounded-full bg-[#2E9F63] flex items-center justify-center text-sm font-semibold">
@@ -61,18 +61,6 @@ export default function Sidebar() {
             </button>
           ))}
         </nav>
-      </div>
-
-      <div className="flex items-center gap-3 px-2 pt-4 border-t border-white/10 cursor-pointer hover:bg-white/5 rounded-lg py-2 transition-colors duration-150">
-        <span className="w-9 h-9 rounded-full bg-[#2E9F63] flex items-center justify-center text-sm font-semibold shrink-0">
-          AD
-        </span>
-        <div>
-          <p className="text-sm font-medium leading-tight">Alex Director</p>
-          <p className="text-xs text-[#8FA398] leading-tight">
-            System Overseer
-          </p>
-        </div>
       </div>
     </aside>
   );

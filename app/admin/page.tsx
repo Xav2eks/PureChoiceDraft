@@ -78,7 +78,7 @@ export default function DashboardPage() {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-5 mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-6">
         {stats.map(({ label, value, note, noteColor, Icon }) => (
           <div
             key={label}
