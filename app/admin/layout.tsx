@@ -6,7 +6,7 @@ export default function AdminLayout({ children }: LayoutProps<"/">) {
       <div className="hidden md:block">
         <Sidebar />
       </div>
-      <main className="flex-1 p-6 bg-[#F5F5F5]">{children}</main>
+      <main className="flex-1 bg-[#F5F5F5]">{children}</main>
     </div>
   );
 }
